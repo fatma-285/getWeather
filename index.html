@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+    <!-- START NAVBAR -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary m-d py-4">
+        <div class="container">
+            <div class="logo d-flex align-baseline gap-2">
+                <img src="./images/logo@2x.png" alt="">
+                <div class="log-txt text-white ">
+                    <h1 class="mb-0">Weather</h1>
+                    <small>tagline goes here</small>
+                </div>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse p-3" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item ms-">
+                        <a class="nav-link rounded-pill btn active px-3 py-1" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item ms-2">
+                        <a class="nav-link rounded-pill btn px-3 py-1" href="#">News</a>
+                    </li>
+                    <li class="nav-item ms-2">
+                        <a class="nav-link rounded-pill btn px-3 py-1" href="#">Live Cameras</a>
+                    </li>
+                    <li class="nav-item ms-2">
+                        <a class="nav-link rounded-pill btn px-3 py-1" href="#">Photos</a>
+                    </li>
+                    <li class="nav-item ms-2">
+                        <a class="nav-link rounded-pill btn px-3 py-1" href="pages/contact.html">Contact</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- END NAVBAR -->
+
+    <section class="find-location py-5">
+        <div class="container">
+            <div class="input-group mb-3">
+                <input type="search" id="search" class="form-control rounded-5 m-d z-0 py-3 border-0 text-white" placeholder="Find your location...">
+                <!-- <button class="btn  rounded-5 px-4 z-1" type="button" id="">Find</button> -->
+            </div>
+        </div>
+    </section>
+
+    <section class="weather-info m-d py-5  ">
+        <div class="container ">
+            <div class="weather-cards row rounded-2 py-4" id="weather-cards">
+                
+                
+
+                
+            </div>
+        </div>
+
+    </section>
+
+    <!-- START FOOTER -->
+    <footer class="s-d text-white py-5">
+        <div class="container">
+            <div class="row py-3 mb-4">
+                <div class="col-md-8 mb-3">
+                    <div class="input-group">
+                        <input type="text" class="form-control rounded-5 border-0 z-0 m-d text-white py-3 border-0"
+                            placeholder="Enter your email to subscribe...">
+                        <button class="btn btn-primary px-4 rounded-5 z-1" type="button">Subscribe</button>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-3">
+                    <div class="social-links d-flex justify-content-md-end justify-content-center gap-2 ">
+                        <a href="#"><i class="fa-brands fa-facebook-f fs-5 p-2 rounded-circle m-d custom-color"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter fs-5 p-2 rounded-circle m-d custom-color"></i></a>
+                        <a href="#"><i class="fa-brands fa-google-plus fs-5 p-2 rounded-circle m-d custom-color"></i></a>
+                        <a href="#"><i class="fa-brands fa-pinterest fs-5 p-2 rounded-circle m-d custom-color"></i></a>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="text-center">
+                <p>© Copyright 2014 Company name. All Rights Reserved</p>
+                <p>Designed by Themezy.</p>
+            </div>
+        </div>
+    </footer>  
+    <!-- END FOOTER -->
+     <script src="./Js/main.js"></script>
+    <script src="./Js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
