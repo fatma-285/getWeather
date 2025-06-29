@@ -63,7 +63,7 @@ function displayWeatherCards(current, location, forecast) {
     month: "long",
   });
   blackBox += `
-               <div class="col-md-4 weather-card text-white s-d px-0" id="current">
+               <div class="col-md-4 weather-card text-white s-d px-0 " id="current">
                     <div class="card-header d-flex justify-content-between s-d px-3 py-2 gray-h " id="today">
                         <p id="day" class="mb-0">${dayName}</p>
                         <span id="date">${dateStr}</span>
@@ -82,13 +82,13 @@ function displayWeatherCards(current, location, forecast) {
                           current.condition.text
                         }</p>
                         <div class="weather-details d-flex gap-3">
-                            <span><img src="../images/icon-umberella@2x.png" alt=""> ${
+                            <span><img src="images/icon-umberella@2x.png" alt=""> ${
                               current.humidity
                             }</span>
-                            <span><img src="../images/icon-wind.png" alt=""> ${Math.round(
+                            <span><img src="images/icon-wind.png" alt=""> ${Math.round(
                               current.wind_kph
                             )}km/h</span>
-                            <span><img src="../images/icon-compass@2x.png" alt=""> ${
+                            <span><img src="images/icon-compass@2x.png" alt=""> ${
                               current.wind_dir
                             }</span>
                         </div>
